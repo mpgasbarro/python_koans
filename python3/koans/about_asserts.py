@@ -33,7 +33,7 @@ class AboutAsserts(Koan):
         To understand reality, we must compare our expectations against reality.
         """
         expected_value = __
-        actual_value = 1 + 1
+        actual_value = __
         self.assertTrue(expected_value == actual_value)
 
     def test_a_better_way_of_asserting_equality(self):
