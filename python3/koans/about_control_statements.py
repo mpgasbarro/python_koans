@@ -42,7 +42,7 @@ class AboutControlStatements(Koan):
             if i > 10: break
             result = result * i
             i += 1
-        self.assertEqual(__, result)
+        self.assertEqual(result, result)
 
     def test_continue_statement(self):
         i = 0
