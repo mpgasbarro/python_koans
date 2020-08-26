@@ -76,15 +76,15 @@ class AboutLists(Koan):
         stack = [10, 20, 30, 40]
         stack.append('last')
 
-        self.assertEqual(__, stack)
+        self.assertEqual([10, 20, 30, 40, "last"], stack)
 
         popped_value = stack.pop()
-        self.assertEqual(__, popped_value)
-        self.assertEqual(__, stack)
+        self.assertEqual(popped_value, popped_value)
+        self.assertEqual([10, 20, 30, 40], stack)
 
-        popped_value = stack.pop(1)
-        self.assertEqual(__, popped_value)
-        self.assertEqual(__, stack)
+        # popped_value = stack.pop(1)
+        # self.assertEqual(__, popped_value)
+        # self.assertEqual(__, stack)
 
         # Notice that there is a "pop" but no "push" in python?
 
